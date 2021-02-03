@@ -1,0 +1,22 @@
+
+input {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+label {
+  float: left;
+  display: inline-block;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin: 7px 4% 7px 5px;
+  width: 90px;
+}
+
+#add{
+  border-radius: 10px;
+  font-weight: bold;
+  margin-left: 160px;
+}
+
+
