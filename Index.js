@@ -40,8 +40,6 @@ function showMovie()
 {
   if (movieList.length > 0)
   {
-    // document.getElementById("result").style.visibility = "visible";
-
     // sortByRatings();
 
     let str = "Movies and Ratings:" + "<br><br>";
