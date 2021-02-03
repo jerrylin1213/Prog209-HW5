@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Object HW</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div>
+        <label for="title">Movie Title</label>
+        <input type="text" name="input" id="title" placeholder="Enter movie title" required>
+    </div>
+    <br>
+    <div>
+        <label for="rating">Movie Rating</label>
+        <input type="text" name="input" id="rating" placeholder="Enter movie rating" required>
+    </div>
+    <br>   <!-- Hugh added -->
+    <!-- <button onclick="addMovie()">Add Movie</button> Hugh commented -->
+    <button onclick="addMovie()" id="add">Add Movie</button> <!-- Hugh added -->
+    <button onclick="showMovie()">Show Movie</button>
+
+    <br><br><br>    <!-- Hugh added -->
+    <div id="result"></div>
+
+
+</body>
+<script type="text/javascript" src="movie.js"></script>
+<script type="text/javascript" src="Index.js"></script>
+
+</html>
