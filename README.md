@@ -5,7 +5,7 @@ Jerry Lin and Hugh Le's HW 5
   b) Uploaded 2 modified files: Index.html and Index.js
   c) Please search for "Hugh" as comments for new changes in the 2 modified files.
   
-2/6/2021 HUgh
+2/6/2021 Hugh
   a) Modified all files except movie.js
   b) Added sortByRatings() function
   c) Added movie count to index.html.
