@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Movie List With Rating</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <h1>Movie List</h1>
+    <div>
+        <label for="title">Movie Title</label>
+        <input type="text" name="input" id="title" size="25" placeholder="Enter movie title" required>
+    </div>
+    <br>
+    <div>
+        <label for="rating">Movie Rating</label>
+        <input type="text" name="input" id="rating" size="25" placeholder="Enter rating(1=bad...5=good)" required>
+    </div>
+    <br>
+
+    <button onclick="addMovie()" class="function" id="add">Add Movie</button> 
+    <button onclick="showMovie()" class="function" id="show">Show Movie</button>
+    <p id="count"></p>
+
+    <br><br><br>
+    <div id="result"></div>
+
+
+</body>
+<script type="text/javascript" src="movie.js"></script>
+<script type="text/javascript" src="Index.js"></script>
+
+</html>
